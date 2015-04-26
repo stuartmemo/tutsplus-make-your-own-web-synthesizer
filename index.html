@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Add sound to your web app</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <link rel="stylesheet" href="styles/main.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>My shop</h1>
+                    <p>Are you ready to buy this item?</p>
+                    <form action="">
+                        <div class="form-group">
+                            <label>Name on card</label>
+                            <input type="text" class="form-control" value="Guybrush Threepwood" />
+                        </div>
+                        <div class="form-group">
+                            <label>Card number</label>
+                            <input type="text" class="form-control" value="1515-1551-5151-1515" />
+                        </div>
+                    </form>
+                    <button id="buy-now-button" type="button" class="btn btn-primary"
+                        data-loading-text="Processing..." data-complete-text="Success!">Buy now</button>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <script src="scripts/success-sound.js"></script>
+    </body>
+</html>
